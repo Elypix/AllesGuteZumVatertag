@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  background-color: #F9ED69;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+h1{
+  color: #222831;
+  font-size: 225%;
+  display: block;
+  visibility: hidden;
+  font-family: 'BIZ UDPGothic', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 110%;
+}
+
+@keyframes slide {
+  from {margin-left: 0; visibility: hidden;}
+  to {margin-left: 49%; visibility: visible;}
+    }
+
+
+.p1{
+  margin-top: 50px;
+}
+
+.slide1{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+.slide2{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+}
+.slide3{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+}
+.slide4{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+}
+.slide5{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+}
+.slide6{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 2.5s;
+}
+.slide7{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 3s;
+}
+.slide8{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 3.5s;
+}
+.slide9{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 4s;
+}
+.slide10{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 4.5s;
+}
+.slide11{
+  animation-name: slide;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
+  margin-left: 48%;
+}
